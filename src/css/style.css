@@ -124,16 +124,18 @@ nav{
 }
 
 .skills_container h2{
-     text-align: center;
+    text-align: center;
     width: 96px;
     font-size: 22px;
     margin: 20px auto;
     padding-bottom: 5px;
     margin-left: calc(50%-48px)
+    
 }
 
 .skills_container{
-    width: 920px;
+    width: 1320px;
+    height: 408px;
     margin: 0 auto;
     background: url(../img/bg2.jpg)center/cover no-repeat;
 }
@@ -148,7 +150,9 @@ nav{
 
 .skills_item{
     float: left;
-    width: 230px;
+    top: 50px;
+    width: 200px;
+    margin: 100px 0px 100px 100px;
     text-align: center;
 }
 .clear{
@@ -164,13 +168,15 @@ nav{
     padding-bottom: 5px;
 }
 .statistic_container{
-    width: 940px;
+    width: 1320px;
+    height: 408px;
     margin: 0 auto;
     background: url(../img/bg3.jpg);
 }
 .statistic_item{
     display: inline-block;
-    width: 230px;
+    top: 50px;
+    width: 320px;
     text-align: center;
 }
 
@@ -200,10 +206,31 @@ nav{
     margin: 0 auto;
 }
 
+.portfolio_container p{
+    text-align: center;
+    margin: 40px auto;
+}
+
+
 .description_left{
     float: left;
     width: 230px;
-    text-align: center;
+    
+}
+
+.description_right{
+    float: left;
+    width: 930px;
+    
+}
+
+.clear{
+    clear:left;
+}
+
+.calculator_container{
+    width: 920px;
+    margin: 20px auto;
 }
 
 .calculator_container h2{
@@ -217,7 +244,7 @@ nav{
 
 .mySelect{
     display:block;
-    width: 890px;
+    width: 900px;
     height: 54px;
     background: #999;
 }
@@ -256,7 +283,8 @@ nav{
 }
 
 .contacts_container{
-    width: 920px;
+     width: 1420px;
+    height: 408px;
     margin: 0 auto;
     background: url(../img/bg4.jpg)center/cover no-repeat;
 }
@@ -264,16 +292,44 @@ nav{
 .contacts_container h2{
     text-align: center;
     width: 96px;
-    font-size: 22px;
+    font-size: 22px; color: white;
+    margin: 20px auto;
+    padding-bottom: 5px;
+    margin-left: calc(50%-48px)
+}
+
+.contacts_container h3{
+    text-align: center;
+    margin-top: 30px;
+    width: 250px;
+    font-size: 18px; color: white;
     margin: 20px auto;
     padding-bottom: 5px;
     margin-left: calc(50%-48px)
 }
 
 .contacts_container hr{
+    color: white;
     height: 4px;
     border: none;
     background: #d17700;
     width: 60px;
     margin: 0 auto;
+}
+
+.contacts_data_item{
+    margin-top: 30px;
+    color: white;
+    display:inline-block;
+    top: 50px;
+    width: 420px;
+    text-align: center;
+}
+
+.contacts_inputs{
+    display:inline-block;
+    margin-top: 30px;
+    top: 50px;
+    width: 420px;
+    text-align: center;
 }
